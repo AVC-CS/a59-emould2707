@@ -5,7 +5,17 @@ using namespace std;
 int main()
 {
 	int prev, current;
-	// TODO
+	int flag = 1;
+	cin >> current;
+	while ((flag == 1) || (prev > current)){
+		flag = 0;
 
-	// TODO
+		cout << current << "\t" ;
+
+		prev = current;
+		cin >> current;
+	}
+	cout << endl;
+	return 0;
+	
 }
